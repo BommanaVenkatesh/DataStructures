@@ -38,7 +38,7 @@ public class ArrayList {
     	}
     	if(p>=a.length) increase();
     	for(int i=size()-1;i>=index;i--)
-    	{
+      {
     		a[i+1]=a[i];
     	}
     	a[index]=e;
