@@ -11,8 +11,6 @@ public class Test1 {
         l.add(true);
         l.add('B');
         int size=l.size();
-		{
-			System.out.println("Venky");		}
         Object o1=l.get(1);
         System.out.println("Size of ArrayLis is "+size);
         System.out.println("Object at index 1 is "+o1);
